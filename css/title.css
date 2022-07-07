@@ -1,0 +1,53 @@
+#title{
+}
+#title .wrap{
+}
+#title ul.slide{
+  color: #fff;
+  height: 58.59375vh;
+}
+#title ul.slide li{
+  position: relative;
+  text-align: center;
+}
+#title ul.slide li h2{
+  line-height: 2.5;
+  animation: slideh2 forwards 1 1s;
+}
+@keyframes slideh2{
+  0%{
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+#title ul.slide li p{
+  animation: slidep forwards 1 1s;
+}
+@keyframes slidep{
+  0%{
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide_title{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: calc(100% / 2 - 100px);
+}
+#title img{
+  height: 58.59375vh;
+}
+
+.slick-dots li button::before {
+    font-size: 30px !important;  
+}
+ 

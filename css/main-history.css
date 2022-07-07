@@ -1,0 +1,51 @@
+#history {
+
+  padding: inherit;
+}
+#history .wrap {
+}
+#history p.history{
+  font-size: 13px;
+  background-color: #eee;
+  line-height: 3;
+  padding-left: 30px;
+}
+#history p.history+p {
+  text-align: center;
+  font-size: 17px;
+  line-height: 5;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #333;
+}
+#history .p {
+
+}
+#history div.all{
+  width: 90%;
+  margin: 0 auto;
+}
+#history article{
+
+  padding: 50px 0;
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+#history h4{
+
+  margin-right: 100px;
+  font-size: 50px;
+}
+#history article ul.detail{
+
+}
+#history article ul li{
+
+  line-height: 3;
+  color: #666;
+}
+#history h2+.p {
+
+}
+.here{
+}
