@@ -134,12 +134,12 @@
   }
   /*  비지니스  */
   #business{
-  padding: 0 30px;
+  padding: 0 50px !important;
   }
   #business .wrap{
   align-items: center;
   padding: 20px 0;
-  height: calc(600px * 0.7);
+  height: calc(600px * 0.7) !important;
   min-height: 320px;
   }
   #business .wrap > *{    
