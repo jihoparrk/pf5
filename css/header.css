@@ -8,14 +8,31 @@ header {
   animation-direction: reverse;
   animation-duration: 0.7s;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-out;  
+  -webkit-animation-name: headerdown;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-duration: 0.7s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-out;
 }
 @keyframes headerdown{
   0%{
     transform: translateY(0);
+    -webkit-transform: translateY(0);
   }
   100%{
      transform: translateY(-100%);
+     -webkit-transform: translateY(-100%);
+  }
+}
+@-webkit-keyframes headerdown{
+  0%{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+  100%{
+     transform: translateY(-100%);
+     -webkit-transform: translateY(-100%);
   }
 }
 header .wrap{
