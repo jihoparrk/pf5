@@ -11,7 +11,6 @@
   text-align: center;
 }
 #title ul.slide li h2{
-  line-height: 2.5;
   animation-name: slideh2;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
@@ -54,9 +53,13 @@
 .slide_title{
   position: absolute;
   width: 100%;
-  height: 200px;
-  top: calc(100% / 2 - 100px);
+  height: 150px;
+  top: calc(100% / 2 - 75px);
   max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 #title img{
   height: 58.59375vh;
